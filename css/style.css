@@ -22,7 +22,8 @@ header {
 
 nav {
     flex-grow: 1;
-    min-width: 50%
+    min-width: 50%;
+    text-align: center;
 }
 
 /* Content */
