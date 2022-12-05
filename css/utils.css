@@ -1,0 +1,19 @@
+/* Utils */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header-container {
+	align-items: center;
+	min-height: 80px;
+	display: flex;
+	background-color: #ADD8E6;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}

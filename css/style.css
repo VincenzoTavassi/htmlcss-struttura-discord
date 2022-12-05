@@ -1,0 +1,45 @@
+/* Header */
+
+header {
+    background-color: #ADD8E6;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+
+.logo,
+.login {
+    background-color: gold;
+    padding: 10px;
+    width: 150px;
+    border: 2px dashed black;
+}
+
+.header-container>nav {
+    background-color: gold;
+    padding: 10px;
+    min-width: 50%;
+    flex-grow: 1;
+    border: 2px dashed black;
+}
+
+nav {
+    flex-grow: 1;
+    min-width: 50%
+}
+
+.normal-section {
+    height: 500px;
+    background: #00008B;
+}
+
+.first-box {
+    height: 80%;
+    border: 2px dashed black;
+    background-color: #EE82EE;
+    width: 70%;
+}
