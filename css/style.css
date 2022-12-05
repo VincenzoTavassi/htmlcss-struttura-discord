@@ -105,9 +105,7 @@ footer {
 .footer-button {
     background-color: #FFB6C1;
     border: 2px dashed black;
-    height: 50px;
-    width: 100px;
-    line-height: 50px;
-    vertical-align: middle;
+    padding: 5px;
     text-align: center;
+    font-size: 22px;
 }
