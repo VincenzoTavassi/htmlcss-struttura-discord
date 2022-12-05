@@ -11,6 +11,22 @@ header {
     height: 100%
 }
 
+.d-flex-top {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    height: 100%;
+    padding-top: 12px;
+}
+
+.d-flex-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 12px;
+}
+
 .logo,
 .login {
     background-color: gold;
@@ -83,4 +99,54 @@ nav {
     border: 2px dashed black;
     background-color: green;
     width: 100%;
+}
+
+/* footer */
+
+footer {
+    background-color: #23272A;
+}
+
+.top-footer {
+    height: 700px;
+    border-bottom: 2px solid gray;
+}
+
+.left-nav {
+    width: calc(100% / 3);
+    height: 93%;
+    background-color: #F08080;
+    border: 4px dashed black;
+}
+
+.right-nav {
+    width: calc(100% / 6);
+    height: 93%;
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+.bottom-footer {
+    height: 150px;
+}
+
+.footer-container {
+    background-color: #7FFFD4;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-logo,
+.footer-button {
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
 }
